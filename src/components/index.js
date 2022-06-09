@@ -8,6 +8,7 @@ import StunningPDText from "./StunningPDText";
 import MagicIsInDetails from "./MagicIsInDetails";
 import WeLoveAgile from "./WeLoveAgile";
 import TransparencyAndIntegrity from "./TransparencyAndIntegrity";
+import ScopeOfDomain from "./ScopeOfDomain";
 export {
   Button,
   Loader,
@@ -19,4 +20,5 @@ export {
   MagicIsInDetails,
   WeLoveAgile,
   TransparencyAndIntegrity,
+  ScopeOfDomain
 };
