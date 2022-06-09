@@ -4,6 +4,8 @@ import {
   UnreasonableTagLine,
   StunningPDText,
   MagicIsInDetails,
+  WeLoveAgile,
+  TransparencyAndIntegrity,
 } from "../components";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
@@ -15,13 +17,20 @@ const Home = () => {
         <Navbar></Navbar>
         <UnreasonableTagLine />
         <div className="flex justify-center">
-          <Image src="/images/big_building.png" width={2000} height={1040}></Image>
+          <Image
+            src="/images/big_building.png"
+            width={2000}
+            height={1040}
+          ></Image>
         </div>
         <div className="mt-16"></div>
         <StunningPDText />
         <div className="mt-16"></div>
         <MagicIsInDetails />
-
+        <div className="mt-10"></div>
+        <WeLoveAgile />
+        <div className="mt-10"></div>
+        <TransparencyAndIntegrity />
       </div>
     </>
   );

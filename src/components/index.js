@@ -6,6 +6,8 @@ import Navbar from "./Navbar";
 import UnreasonableTagLine from "./UnreasonableTagLine";
 import StunningPDText from "./StunningPDText";
 import MagicIsInDetails from "./MagicIsInDetails";
+import WeLoveAgile from "./WeLoveAgile";
+import TransparencyAndIntegrity from "./TransparencyAndIntegrity";
 export {
   Button,
   Loader,
@@ -14,5 +16,7 @@ export {
   Navbar,
   UnreasonableTagLine,
   StunningPDText,
-  MagicIsInDetails
+  MagicIsInDetails,
+  WeLoveAgile,
+  TransparencyAndIntegrity,
 };
