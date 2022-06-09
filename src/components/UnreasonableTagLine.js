@@ -2,7 +2,7 @@ import React from 'react'
 
 const UnreasonableTagLine = () => {
   return (
-    <>
+    <div className='my-24 mt-12'>
         <div className="flex flex-col flex-wrap content-center">
         <div className="font-normal text-6xl">we are</div>
         <div className="font-bold text-8xl mt-2">unreasonable</div>
@@ -18,7 +18,7 @@ const UnreasonableTagLine = () => {
           why unreasonable
         </a>
       </div>
-    </>
+    </div>
   )
 }
 

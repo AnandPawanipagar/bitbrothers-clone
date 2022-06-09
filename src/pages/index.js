@@ -1,9 +1,15 @@
 import { Col, Row } from "antd";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Button, Navbar,UnreasonableTagLine } from "../components";
+import {
+  Button,
+  Navbar,
+  UnreasonableTagLine,
+  StunningPDText,
+} from "../components";
 import { actions } from "../redux";
 import styles from "../styles/Home.module.css";
+import Image from "next/image";
 
 const Home = () => {
   // const { user } = useSelector((state) => state.auth);
@@ -14,8 +20,13 @@ const Home = () => {
     <>
       <div className={styles.containerMargin}>
         <Navbar></Navbar>
-        <div className="mt-8"></div>
-        <UnreasonableTagLine/>
+        {/* <div className="mt-8"></div> */}
+        <UnreasonableTagLine />
+        <div className="flex justify-center">
+          <Image src="/big_building.png" width={2000} height={1040}></Image>
+        </div>
+        <div className="mt-16"></div>
+        <StunningPDText />
       </div>
     </>
 
