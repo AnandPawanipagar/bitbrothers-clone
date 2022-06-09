@@ -5,6 +5,7 @@ import Redirect from "./Redirect";
 import Navbar from "./Navbar";
 import UnreasonableTagLine from "./UnreasonableTagLine";
 import StunningPDText from "./StunningPDText";
+import MagicIsInDetails from "./MagicIsInDetails";
 export {
   Button,
   Loader,
@@ -13,4 +14,5 @@ export {
   Navbar,
   UnreasonableTagLine,
   StunningPDText,
+  MagicIsInDetails
 };

@@ -5,7 +5,7 @@ import approch from "../pages/approch";
 const Navbar = () => {
   return (
     <div className=" flex flex-row justify-between mt-2 ">
-      <Image src="/bitbrothers-logo-text.png " width={118} height={40}></Image>
+      <Image src="/images/bitbrothers-logo-text.png " width={118} height={40}></Image>
       <div className="flex flex-row items-center">
         <div className="mr-6 uppercase opacity-50 hover:opacity-[100] font-semibold">
           <Link href="/approch">approch</Link>

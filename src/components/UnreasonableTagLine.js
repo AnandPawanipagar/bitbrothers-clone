@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const UnreasonableTagLine = () => {
   return (
-    <div className='my-24 mt-12'>
-        <div className="flex flex-col flex-wrap content-center">
+    <div className="ml-24 mr-24 mt-12">
+      <div className="flex flex-col flex-wrap content-center">
         <div className="font-normal text-6xl">we are</div>
         <div className="font-bold text-8xl mt-2">unreasonable</div>
         <div className="font-normal text-4xl mt-2 text-[#808080]">
@@ -19,7 +19,7 @@ const UnreasonableTagLine = () => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default UnreasonableTagLine
+export default UnreasonableTagLine;
