@@ -1,7 +1,7 @@
 import { Col, Row } from "antd";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Button, Navbar } from "../components";
+import { Button, Navbar,UnreasonableTagLine } from "../components";
 import { actions } from "../redux";
 import styles from "../styles/Home.module.css";
 
@@ -14,6 +14,8 @@ const Home = () => {
     <>
       <div className={styles.containerMargin}>
         <Navbar></Navbar>
+        <div className="mt-8"></div>
+        <UnreasonableTagLine/>
       </div>
     </>
 

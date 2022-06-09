@@ -3,5 +3,5 @@ import Loader from "./Loader";
 import MetaTags from "./MetaTags";
 import Redirect from "./Redirect";
 import Navbar from "./Navbar";
-
-export { Button, Loader, MetaTags, Redirect, Navbar };
+import UnreasonableTagLine from "./UnreasonableTagLine";
+export { Button, Loader, MetaTags, Redirect, Navbar,UnreasonableTagLine };
