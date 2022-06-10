@@ -53,10 +53,10 @@ const CommunityCard = () => {
               <div className="text-center font-normal text-xl">
                 {card.tagline}
               </div>
-              <p className="text-center font-normal text-base">
+              <p className="text-center font-normal text-base mt-4">
                 {card.descrpion}
               </p>
-              <p className="text-center font-normal text-base">{card.learn}</p>
+              <p className="text-center font-normal text-base mt-6">{card.learn}</p>
             </div>
           );
         })}
@@ -67,11 +67,11 @@ const CommunityCard = () => {
           <div className="text-center font-normal text-xl">
             Community Auditors
           </div>
-          <p className="text-center font-normal text-base">
+          <p className="text-center font-normal text-base mt-4">
             We serve as liaisons combining your product vision with our
             technical teams’ expertise.
           </p>
-          <p className="text-center font-normal text-base">
+          <p className="text-center font-normal text-base mt-6">
             {" "}
             <a
               href="https://bitbrothers.in/pages/services/project-management/"

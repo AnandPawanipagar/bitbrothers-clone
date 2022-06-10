@@ -8,6 +8,9 @@ import {
   TransparencyAndIntegrity,
   ScopeOfDomain,
   CommunityCard,
+  TrustedParter,
+  DiscoverHowWeDeliver,
+  ScannerToRoadCards,
 } from "../components";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
@@ -31,12 +34,18 @@ const Home = () => {
         <MagicIsInDetails />
         <div className="mt-10"></div>
         <WeLoveAgile />
-        <div className="mt-10"></div>
+        <div className="mt-12"></div>
         <TransparencyAndIntegrity />
-        <div className="mt-10"></div>
+        <div className="mt-12"></div>
         <ScopeOfDomain />
-        <div className="mt-10"></div>
+        <div className="mt-20"></div>
         <CommunityCard />
+        <div className="mt-20"></div>
+        <TrustedParter />
+        <div className="mt-20"></div>
+        <DiscoverHowWeDeliver />
+        <div className="mt-20"></div>
+        <ScannerToRoadCards />
       </div>
     </>
   );

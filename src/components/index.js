@@ -10,6 +10,9 @@ import WeLoveAgile from "./WeLoveAgile";
 import TransparencyAndIntegrity from "./TransparencyAndIntegrity";
 import ScopeOfDomain from "./ScopeOfDomain";
 import CommunityCard from "./CommunityCard";
+import TrustedParter from "./TrustedParter";
+import DiscoverHowWeDeliver from "./DiscoverHowWeDeliver";
+import ScannerToRoadCards from "./ScannerToRoadCards";
 export {
   Button,
   Loader,
@@ -22,5 +25,8 @@ export {
   WeLoveAgile,
   TransparencyAndIntegrity,
   ScopeOfDomain,
-  CommunityCard
+  CommunityCard,
+  TrustedParter,
+  DiscoverHowWeDeliver,
+  ScannerToRoadCards
 };
