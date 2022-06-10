@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
         <button
           type="button"
-          className=" rounded ml-6 w-full flex items-center bg-[#b689f8] text-white px-8 h-[36px] hover:bg-[#BB8FCE] opacity-200 "
+          className=" font-bold text-sm rounded ml-6 w-fit flex items-center bg-[#b689f8] text-white px-8 h-[36px] hover:bg-[#BB8FCE] opacity-200 "
         >
           GET IN TOUCH
         </button>

@@ -13,6 +13,8 @@ import CommunityCard from "./CommunityCard";
 import TrustedParter from "./TrustedParter";
 import DiscoverHowWeDeliver from "./DiscoverHowWeDeliver";
 import ScannerToRoadCards from "./ScannerToRoadCards";
+import LearnMoreBtn from "./LearnMoreBtn";
+import HappyClientsToProjDepCards from "./HappyClientsToProjDepCards";
 export {
   Button,
   Loader,
@@ -28,5 +30,7 @@ export {
   CommunityCard,
   TrustedParter,
   DiscoverHowWeDeliver,
-  ScannerToRoadCards
+  ScannerToRoadCards,
+  LearnMoreBtn,
+  HappyClientsToProjDepCards
 };

@@ -28,7 +28,7 @@ const ScannerToRoadCards = () => {
     <div className="grid overflow-hidden grid-cols-4 grid-rows-1 gap-8 ">
       {cards.map((card) => {
         return (
-          <div className="max-w-sm rounded overflow-hidden shadow-lg flex flex-col content-center flex-wrap ">
+          <div className="max-w-sm rounded overflow-hidden shadow border-2 border-[#ECF0F1] px-4 py-4  flex flex-col content-center flex-wrap ">
             <div className="text-center font-normal text-xl">
               {card.tagline}
             </div>

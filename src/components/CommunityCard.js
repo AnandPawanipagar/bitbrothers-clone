@@ -49,7 +49,7 @@ const CommunityCard = () => {
         {cards.map((card) => {
           //   max-w-sm w-full lg:max-w-full lg:flex
           return (
-            <div className="max-w-sm rounded overflow-hidden shadow-lg flex flex-col content-center flex-wrap">
+            <div className="max-w-sm rounded overflow-hidden shadow-lg flex flex-col content-center flex-wrap border-2 border-[#ECF0F1] px-4 py-4">
               <div className="text-center font-normal text-xl">
                 {card.tagline}
               </div>
@@ -63,7 +63,7 @@ const CommunityCard = () => {
       </div>
       <div className="mt-10"></div>
       <div className="flex justify-center">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg flex flex-col content-center flex-wrap">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg flex flex-col content-center flex-wrap border-2 border-[#ECF0F1] px-4 py-4">
           <div className="text-center font-normal text-xl">
             Community Auditors
           </div>

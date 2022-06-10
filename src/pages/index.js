@@ -11,6 +11,8 @@ import {
   TrustedParter,
   DiscoverHowWeDeliver,
   ScannerToRoadCards,
+  LearnMoreBtn,
+  HappyClientsToProjDepCards,
 } from "../components";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
@@ -46,6 +48,10 @@ const Home = () => {
         <DiscoverHowWeDeliver />
         <div className="mt-20"></div>
         <ScannerToRoadCards />
+        <div className="mt-20"></div>
+        <LearnMoreBtn />
+        <div className="mt-20"></div>
+        <HappyClientsToProjDepCards />
       </div>
     </>
   );
