@@ -9,6 +9,7 @@ import MagicIsInDetails from "./MagicIsInDetails";
 import WeLoveAgile from "./WeLoveAgile";
 import TransparencyAndIntegrity from "./TransparencyAndIntegrity";
 import ScopeOfDomain from "./ScopeOfDomain";
+import CommunityCard from "./CommunityCard";
 export {
   Button,
   Loader,
@@ -20,5 +21,6 @@ export {
   MagicIsInDetails,
   WeLoveAgile,
   TransparencyAndIntegrity,
-  ScopeOfDomain
+  ScopeOfDomain,
+  CommunityCard
 };

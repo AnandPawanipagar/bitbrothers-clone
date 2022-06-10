@@ -7,6 +7,7 @@ import {
   WeLoveAgile,
   TransparencyAndIntegrity,
   ScopeOfDomain,
+  CommunityCard,
 } from "../components";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
@@ -34,6 +35,8 @@ const Home = () => {
         <TransparencyAndIntegrity />
         <div className="mt-10"></div>
         <ScopeOfDomain />
+        <div className="mt-10"></div>
+        <CommunityCard />
       </div>
     </>
   );
