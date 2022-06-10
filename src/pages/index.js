@@ -13,6 +13,7 @@ import {
   ScannerToRoadCards,
   LearnMoreBtn,
   HappyClientsToProjDepCards,
+  DailyStandUpToSprintCycles,
 } from "../components";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
@@ -52,6 +53,8 @@ const Home = () => {
         <LearnMoreBtn />
         <div className="mt-20"></div>
         <HappyClientsToProjDepCards />
+        <div className="mt-20"></div>
+        <DailyStandUpToSprintCycles />
       </div>
     </>
   );

@@ -15,6 +15,7 @@ import DiscoverHowWeDeliver from "./DiscoverHowWeDeliver";
 import ScannerToRoadCards from "./ScannerToRoadCards";
 import LearnMoreBtn from "./LearnMoreBtn";
 import HappyClientsToProjDepCards from "./HappyClientsToProjDepCards";
+import DailyStandUpToSprintCycles from "./DailyStandUpToSprintCycles";
 export {
   Button,
   Loader,
@@ -32,5 +33,6 @@ export {
   DiscoverHowWeDeliver,
   ScannerToRoadCards,
   LearnMoreBtn,
-  HappyClientsToProjDepCards
+  HappyClientsToProjDepCards,
+  DailyStandUpToSprintCycles
 };
