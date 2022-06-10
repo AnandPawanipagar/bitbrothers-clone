@@ -14,6 +14,8 @@ import {
   LearnMoreBtn,
   HappyClientsToProjDepCards,
   DailyStandUpToSprintCycles,
+  LetsTalkAYP,
+  Footer
 } from "../components";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
@@ -55,7 +57,12 @@ const Home = () => {
         <HappyClientsToProjDepCards />
         <div className="mt-20"></div>
         <DailyStandUpToSprintCycles />
+        <div className="mt-20"></div>
+        <LetsTalkAYP />
       </div>
+      <div className="mt-20"></div>
+
+      <Footer/>
     </>
   );
 };

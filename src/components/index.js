@@ -16,6 +16,8 @@ import ScannerToRoadCards from "./ScannerToRoadCards";
 import LearnMoreBtn from "./LearnMoreBtn";
 import HappyClientsToProjDepCards from "./HappyClientsToProjDepCards";
 import DailyStandUpToSprintCycles from "./DailyStandUpToSprintCycles";
+import LetsTalkAYP from "./LetsTalkAYP";
+import Footer from "./Footer";
 export {
   Button,
   Loader,
@@ -34,5 +36,7 @@ export {
   ScannerToRoadCards,
   LearnMoreBtn,
   HappyClientsToProjDepCards,
-  DailyStandUpToSprintCycles
+  DailyStandUpToSprintCycles,
+  LetsTalkAYP,
+  Footer
 };
