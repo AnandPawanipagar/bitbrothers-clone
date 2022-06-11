@@ -4,8 +4,13 @@ import Link from "next/link";
 import approch from "../pages/approch";
 const Navbar = () => {
   return (
-    <div className=" flex flex-row justify-between mt-2 ">
-      <Image src="/images/bitbrothers-logo-text.png " width={118} height={40}></Image>
+    <div className=" flex flex-row justify-between ml-32 mr-32 py-2  fixed top-0 left-0 right-0 bg-[white] truncate bg-cover bg-fixed ">
+      <Image 
+      className="bg-cover"
+        src="/images/bitbrothers-logo-text.png "
+        width={118}
+        height={40}
+      ></Image>
       <div className="flex flex-row items-center">
         <div className="mr-6 uppercase opacity-50 hover:opacity-[100] font-semibold">
           <Link href="/approch">approch</Link>
