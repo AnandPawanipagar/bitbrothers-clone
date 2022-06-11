@@ -3,6 +3,7 @@ import React from "react";
 const CommunityCard = () => {
   let cards = [
     {
+      img:"icon icon--lg icon-Light-Bulb2 text-center",
       tagline: "Community Consulting ",
       descrpion:
         "We’ll help you define the scope, technology stack, and potential of your solution.",
@@ -50,6 +51,7 @@ const CommunityCard = () => {
           //   max-w-sm w-full lg:max-w-full lg:flex
           return (
             <div className="max-w-sm rounded overflow-hidden shadow-lg flex flex-col content-center flex-wrap border-2 border-[#ECF0F1] px-4 py-4">
+              <div className={card.img}></div>
               <div className="text-center font-normal text-xl">
                 {card.tagline}
               </div>
@@ -63,13 +65,13 @@ const CommunityCard = () => {
       </div>
       <div className="mt-10"></div>
       <div className="flex justify-center">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg flex flex-col content-center flex-wrap border-2 border-[#ECF0F1] px-4 py-4">
+        <div className="max-w-sm rounded overflow-hidden  flex flex-col content-center flex-wrap border-2 border-[#ECF0F1] px-4 py-4">
           <div className="text-center font-normal text-xl">
             Community Auditors
           </div>
           <p className="text-center font-normal text-base mt-4">
             We serve as liaisons combining your product vision with our
-            technical teams’ expertise.
+            technical teams’ excellent expertise.
           </p>
           <p className="text-center font-normal text-base mt-6">
             {" "}

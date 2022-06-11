@@ -15,7 +15,7 @@ import {
   HappyClientsToProjDepCards,
   DailyStandUpToSprintCycles,
   LetsTalkAYP,
-  Footer
+  Footer,
 } from "../components";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
@@ -26,6 +26,7 @@ const Home = () => {
       <div className={styles.containerMargin}>
         <Navbar></Navbar>
         <UnreasonableTagLine />
+
         <div className="flex justify-center">
           <Image
             src="/images/big_building.png"
@@ -62,7 +63,7 @@ const Home = () => {
       </div>
       <div className="mt-20"></div>
 
-      <Footer/>
+      <Footer />
     </>
   );
 };
