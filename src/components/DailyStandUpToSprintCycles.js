@@ -11,7 +11,9 @@ const DailyStandUpToSprintCycles = () => {
       {components.map((component) => {
         return (
           <div className="flex space-x-2  ">
-            <div className="font-bold text-sm text-[#b689f8]">{component.value}</div>
+            <div className="font-bold text-sm text-[#b689f8]">
+              {component.value}
+            </div>
             <div className="font-bold text-sm">{component.title}</div>
           </div>
         );
