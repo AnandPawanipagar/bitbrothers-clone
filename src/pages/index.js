@@ -14,6 +14,8 @@ import {
   HappyClientsToProjDepCards,
   DailyStandUpToSprintCycles,
   LetsTalkAYP,
+  ClientsCarousel,
+  FeedbackCarousel,
 } from "../components";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
@@ -56,6 +58,10 @@ const Home = () => {
         <DailyStandUpToSprintCycles />
         <div className="mt-20"></div>
         <LetsTalkAYP />
+        <div className="mt-20"></div>
+        <ClientsCarousel />
+        <h1>starts feedback carousel</h1>
+        <FeedbackCarousel />
       </div>
       <div className="mt-20"></div>
     </>

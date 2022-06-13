@@ -19,6 +19,8 @@ import DailyStandUpToSprintCycles from "./HomePage/DailyStandUpToSprintCycles";
 import LetsTalkAYP from "./HomePage/LetsTalkAYP";
 import Footer from "./Footer";
 import OurApproach from "./Approach/OurApproach";
+import ClientsCarousel from "./HomePage/ClientsCarousel";
+import FeedbackCarousel from "./HomePage/FeedbackCarousel";
 export {
   Button,
   Loader,
@@ -40,5 +42,7 @@ export {
   DailyStandUpToSprintCycles,
   LetsTalkAYP,
   Footer,
-  OurApproach
+  OurApproach,
+  ClientsCarousel,
+  FeedbackCarousel
 };
