@@ -18,6 +18,7 @@ import HappyClientsToProjDepCards from "./HappyClientsToProjDepCards";
 import DailyStandUpToSprintCycles from "./DailyStandUpToSprintCycles";
 import LetsTalkAYP from "./LetsTalkAYP";
 import Footer from "./Footer";
+import OurApproach from "./Approach/OurApproach";
 export {
   Button,
   Loader,
@@ -38,5 +39,6 @@ export {
   HappyClientsToProjDepCards,
   DailyStandUpToSprintCycles,
   LetsTalkAYP,
-  Footer
+  Footer,
+  OurApproach
 };

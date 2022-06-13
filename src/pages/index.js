@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  Navbar,
   UnreasonableTagLine,
   StunningPDText,
   MagicIsInDetails,
@@ -15,7 +14,6 @@ import {
   HappyClientsToProjDepCards,
   DailyStandUpToSprintCycles,
   LetsTalkAYP,
-  Footer,
 } from "../components";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
@@ -24,7 +22,6 @@ const Home = () => {
   return (
     <>
       <div className={styles.containerMargin}>
-        <Navbar></Navbar>
         <UnreasonableTagLine />
 
         <div className="flex justify-center">
@@ -62,8 +59,6 @@ const Home = () => {
         <LetsTalkAYP />
       </div>
       <div className="mt-20"></div>
-
-      <Footer />
     </>
   );
 };

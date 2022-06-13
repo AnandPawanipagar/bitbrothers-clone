@@ -1,13 +1,12 @@
-import React from 'react'
-import { Navbar } from '../components'
-const approch = () => {
+import React from "react";
+import styles from "../styles/Home.module.css";
+import { OurApproach } from "../components";
+const Approch = () => {
   return (
-      <>
-      <Navbar/>
-      <div>This is approch</div>
-      </>
-    
-  )
-}
+    <div className={styles.containerMargin}>
+      <OurApproach /> 
+    </div>
+  );
+};
 
-export default approch
+export default Approch;

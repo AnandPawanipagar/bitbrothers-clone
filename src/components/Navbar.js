@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import approch from "../pages/approch";
+
 const Navbar = () => {
   return (
-    <div className=" flex flex-row justify-between ml-32 mr-32 py-2  fixed top-0 left-0 right-0 bg-[white] truncate bg-cover bg-fixed ">
-      <Image 
-      className="bg-cover"
+    <div className=" flex flex-row justify-between ml-32 mb-16 mr-32 py-2 top-0 left-0 right-0  bg-fixed ">
+      <Image
+        className="bg-cover"
         src="/images/bitbrothers-logo-text.png "
         width={118}
         height={40}
