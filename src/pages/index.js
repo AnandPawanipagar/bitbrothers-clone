@@ -60,7 +60,6 @@ const Home = () => {
         <LetsTalkAYP />
         <div className="mt-20"></div>
         <ClientsCarousel />
-        <h1>starts feedback carousel</h1>
         <FeedbackCarousel />
       </div>
       <div className="mt-20"></div>

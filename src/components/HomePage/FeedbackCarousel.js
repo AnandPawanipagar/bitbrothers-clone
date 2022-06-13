@@ -10,6 +10,7 @@ const FeedbackCarousel = () => {
       interval={8000}
       transitionTime={1000}
       showThumbs={false}
+      showIndicators={true}
     >
       <div className="flex flex-col">
         <p className="mb-[1.04em] italic font-serif font-light text-[1.78571429em] text-[#666666]   ">
@@ -25,7 +26,7 @@ const FeedbackCarousel = () => {
           Sr Manager, Deloitte Digital
         </span>
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col mb-[8.0em]">
         <p className="mb-[1.04em] italic font-serif font-light text-[1.78571429em] text-[#666666] ">
           "Very impressed with the level of details and research the team put
           together and quick response time to each project."
@@ -37,6 +38,7 @@ const FeedbackCarousel = () => {
           COO, Bank of America
         </span>
       </div>
+
     </Carousel>
   );
 };
