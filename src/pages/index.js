@@ -23,7 +23,6 @@ const Home = () => {
     <>
       <div className={styles.containerMargin}>
         <UnreasonableTagLine />
-
         <div className="flex justify-center">
           <Image
             src="/images/big_building.png"

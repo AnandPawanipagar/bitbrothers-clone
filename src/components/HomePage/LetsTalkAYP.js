@@ -9,7 +9,7 @@ const LetsTalkAYP = () => {
       </p>
       <button
         type="button"
-        className=" font-bold text-sm rounded ml-6 w-fit flex items-center bg-[#b689f8] text-white px-8 h-[36px] hover:bg-[#BB8FCE] opacity-200 mt-8"
+        className=" bg-gradient-to-r from-[#29dde5] to-[#b689f8] font-bold text-sm rounded ml-6 w-fit flex items-center bg-[#b689f8] text-white px-8 h-[36px] opacity-200 mt-8 hover:from-[#b689f8] hover:to-[#29dde5] "
       >
         GET IN TOUCH
       </button>
