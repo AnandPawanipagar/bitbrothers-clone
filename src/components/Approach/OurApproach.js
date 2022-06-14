@@ -2,7 +2,7 @@ import React from "react";
 
 const OurApproach = () => {
   return (
-    <div className="flex flex-col items-center ">
+    <div className="flex flex-col items-center mb-[7.42em]">
       <div className="text-[3.14em] text-[#252525] font-[400]">
         Our Approach
       </div>
@@ -13,6 +13,7 @@ const OurApproach = () => {
         customizable to fit your specific needs with an almost acrobatic-level
         of flexibility.
       </p>
+    
     </div>
   );
 };
