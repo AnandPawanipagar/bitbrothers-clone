@@ -19,7 +19,7 @@ const ClientsCarousel = () => {
       transitionTime={500}
       showThumbs={false}
       showIndicators={false}
-      centerSlidePercentage={25}
+      centerSlidePercentage={30}
       centerMode={true}
     >
       <div>

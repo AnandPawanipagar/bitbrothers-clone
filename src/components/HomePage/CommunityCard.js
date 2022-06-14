@@ -54,7 +54,7 @@ const CommunityCard = () => {
           return (
             <div className="max-w-sm rounded overflow-hidden shadow-lg flex flex-col content-center flex-wrap border-2 border-[#ECF0F1] px-4 py-4">
               <div className={card.img}></div>
-              <div className="text-center font-normal text-xl">
+              <div className="text-center font-[500] text-xl text-[#252525]">
                 {card.tagline}
               </div>
               <p className="text-center font-normal text-base mt-4">
@@ -71,7 +71,7 @@ const CommunityCard = () => {
       <div className="flex justify-center">
         <div className="max-w-sm rounded overflow-hidden  flex flex-col content-center flex-wrap border-2 border-[#ECF0F1] px-4 py-4">
           <div className="text-7xl text-[#808080] icon-Mail-3 text-center mb-6"></div>
-          <div className="text-center font-normal text-xl">
+          <div className="text-center font-[500] text-xl text-[#252525]">
             Community Auditors
           </div>
           <p className="text-center font-normal text-base mt-4">

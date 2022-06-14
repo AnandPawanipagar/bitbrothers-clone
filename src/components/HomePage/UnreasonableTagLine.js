@@ -4,7 +4,7 @@ const UnreasonableTagLine = () => {
   return (
     <div className="ml-24 mr-24 mt-12">
       <div className="flex flex-col flex-wrap content-center">
-        <div className="font-normal text-6xl">we are</div>
+        <div className="font-normal text-6xl ">We are</div>
         <div className="font-bold text-8xl mt-2">unreasonable</div>
         <div className="font-normal text-4xl mt-2 text-[#808080]">
           in transforming today’s world through ideas of tomorrow.

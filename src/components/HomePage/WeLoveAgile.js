@@ -4,8 +4,8 @@ const WeLoveAgile = () => {
   return (
     <div className="grid overflow-hidden grid-cols-2 grid-rows-1 gap-2 text-justify">
       <div className="flex flex-col">
-        <div className="text-4xl font-normal text-[#252525]">We love Agile</div>
-        <div className="text-2xl font-light text-[#808080] mt-6 text-justify">
+        <div className="text-[2.35em] font-normal text-[#252525]">We love Agile</div>
+        <div className="text-[1.35em] font-normal text-[#808080] mt-6 text-justify leading-[1.68em]">
           After many years of using agile methodologies on hundreds of projects,
           we at Bit Brothers have used that experience to mold what we call{" "}
           <a href="https://bitbrothers.in/pages/adaptable-agile/">

@@ -9,10 +9,10 @@ const TransparencyAndIntegrity = () => {
         height={555}
       ></Image>
       <div className="flex flex-col">
-        <div className="text-4xl font-normal text-[#252525]">
+        <div className="text-[2.35em] font-normal text-[#252525]">
           Transparency and Integrity
         </div>
-        <div className="text-2xl font-light text-[#808080] mt-6 text-justify">
+        <div className="text-[1.35em] font-normal text-[#808080] mt-6 text-justify leading-[1.68em]">
           In theory, it sounds great: “More transparency means better production
           and happier clients.” The reasoning, we argue, is that transparency
           builds trust. Trust makes for better vendor-client relationships, and

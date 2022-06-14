@@ -47,8 +47,12 @@ const Home = () => {
         <div className="mt-20"></div>
         <TrustedParter />
         <div className="mt-20"></div>
-        <DiscoverHowWeDeliver />
+        <ClientsCarousel />
         <div className="mt-20"></div>
+        <FeedbackCarousel />
+        <div className="mt-20"></div>
+        <DiscoverHowWeDeliver />
+        <div className="mt-[10em]"></div>
         <ScannerToRoadCards />
         <div className="mt-20"></div>
         <LearnMoreBtn />
@@ -59,8 +63,6 @@ const Home = () => {
         <div className="mt-20"></div>
         <LetsTalkAYP />
         <div className="mt-20"></div>
-        <ClientsCarousel />
-        <FeedbackCarousel />
       </div>
       <div className="mt-20"></div>
     </>
