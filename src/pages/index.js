@@ -17,13 +17,13 @@ import {
   ClientsCarousel,
   FeedbackCarousel,
 } from "../components";
-import styles from "../styles/Home.module.css";
+
 import Image from "next/image";
 
 const Home = () => {
   return (
     <>
-      <div className={styles.containerMargin}>
+      <div className="ml-[15em] mr-[15em]">
         <UnreasonableTagLine />
         <div className="flex justify-center">
           <Image
