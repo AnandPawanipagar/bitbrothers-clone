@@ -3,7 +3,7 @@ import React from "react";
 const CommunityCard = () => {
   let cards = [
     {
-      img:"icon icon--lg icon-Light-Bulb2 text-center",
+      img: "text-7xl text-[#808080] icon-Light-Bulb2 text-center mb-6",
       tagline: "Community Consulting ",
       descrpion:
         "We’ll help you define the scope, technology stack, and potential of your solution.",
@@ -17,6 +17,7 @@ const CommunityCard = () => {
       ),
     },
     {
+      img: "text-7xl text-[#808080] icon-Text-Box text-center mb-6",
       tagline: "Community as a Service (CaaS)",
       descrpion:
         "We bring expertise in all stages of design, from research to polished prototypes.",
@@ -30,6 +31,7 @@ const CommunityCard = () => {
       ),
     },
     {
+      img: "text-7xl text-[#808080] icon-Clouds text-center mb-6",
       tagline: "Developer Outreach",
       descrpion:
         "We have experience in cloud infrastructure services, design patterns, and strategies.",
@@ -58,7 +60,9 @@ const CommunityCard = () => {
               <p className="text-center font-normal text-base mt-4">
                 {card.descrpion}
               </p>
-              <p className="text-center font-normal text-base mt-6">{card.learn}</p>
+              <p className="text-center font-normal text-base mt-6">
+                {card.learn}
+              </p>
             </div>
           );
         })}
@@ -66,6 +70,7 @@ const CommunityCard = () => {
       <div className="mt-10"></div>
       <div className="flex justify-center">
         <div className="max-w-sm rounded overflow-hidden  flex flex-col content-center flex-wrap border-2 border-[#ECF0F1] px-4 py-4">
+          <div className="text-7xl text-[#808080] icon-Mail-3 text-center mb-6"></div>
           <div className="text-center font-normal text-xl">
             Community Auditors
           </div>
