@@ -25,6 +25,8 @@ import Discover from "./Approach/Discover";
 import Build from "./Approach/Build";
 import Staff from "./Approach/Staff";
 import Support from "./Approach/Support";
+import Coreproduct from "./Services/Coreproduct";
+import MapDevelopment from "./Services/MapDevelopment";
 export {
   Button,
   Loader,
@@ -52,5 +54,7 @@ export {
   Discover,
   Build,
   Staff,
-  Support
+  Support,
+  Coreproduct,
+  MapDevelopment
 };
