@@ -21,6 +21,7 @@ import Footer from "./Footer";
 import OurApproach from "./Approach/OurApproach";
 import ClientsCarousel from "./HomePage/ClientsCarousel";
 import FeedbackCarousel from "./HomePage/FeedbackCarousel";
+import Discover from "./Approach/Discover";
 export {
   Button,
   Loader,
@@ -44,5 +45,6 @@ export {
   Footer,
   OurApproach,
   ClientsCarousel,
-  FeedbackCarousel
+  FeedbackCarousel,
+  Discover
 };

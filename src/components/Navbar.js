@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className=" flex flex-row justify-between ml-32 mb-16 mr-32 py-2 top-0 left-0 right-0  bg-fixed ">
+    <div className=" flex flex-row justify-between ml-[15em] mb-16 mr-[15em] py-2 top-0 left-0 right-0  bg-fixed ">
       <Image
         className="bg-cover"
         src="/images/bitbrothers-logo-text.png "
