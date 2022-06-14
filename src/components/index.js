@@ -27,6 +27,13 @@ import Staff from "./Approach/Staff";
 import Support from "./Approach/Support";
 import Coreproduct from "./Services/Coreproduct";
 import MapDevelopment from "./Services/MapDevelopment";
+import ElevateYourSofEng from "./Services/ElevateYourSofEng";
+import ScaleYourInfra from "./Services/ScaleYourInfra";
+import DelegateScope from "./Services/DelegateScope";
+import ReachUsers from "./Services/ReachUsers";
+import BuildEnhance from "./Services/BuildEnhance";
+import ProtectProductQuality from "./Services/ProtectProductQuality";
+import KeepYourSoftRunning from "./Services/KeepYourSoftRunning";
 export {
   Button,
   Loader,
@@ -56,5 +63,12 @@ export {
   Staff,
   Support,
   Coreproduct,
-  MapDevelopment
+  MapDevelopment,
+  ElevateYourSofEng,
+  ScaleYourInfra,
+  DelegateScope,
+  ReachUsers,
+  BuildEnhance,
+  ProtectProductQuality,
+  KeepYourSoftRunning
 };
