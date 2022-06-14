@@ -2,7 +2,7 @@ import React from "react";
 
 const LetsTalkAYP = () => {
   return (
-    <div className="flex flex-col items-center ">
+    <div className="flex flex-col items-center  ">
       <div className="text-4xl">Let’s talk about your product.</div>
       <p className="mt-6 font-normal text-[#808080] text-xl text-center">
         Let’s take your digital experiences to the next level.

@@ -1,17 +1,19 @@
 import React from "react";
 
-const Discover = () => {
+const Staff = () => {
   const firstList = [
-    "You don’t have clear goals",
-    " You need a proof of concept for testing or stakeholder buy-in",
-    "You’re not totally sure what you want",
+    "You’re having trouble hiring or retaining development staff",
+    " You don’t want to distract your existing in-house team with new projects",
+    "You need to scale fast and can’t wait around for a lengthy hiring process",
   ];
   const secondList = [
     "Project Manager",
-    "Enterprise Consultants",
-    "Solutions Architect",
-    "UI/UX Designer",
-    "Development Support",
+    "Scrum Master",
+    "UI/UX Designert",
+    "Practice Lead",
+    "Development Specialist",
+    "Quality Assurance Analyst",
+    "Account Manager",
   ];
 
   return (
@@ -19,15 +21,14 @@ const Discover = () => {
       <div className=" col-start-auto col-span-1 bg-[#b689f8]"></div>
       <div className=" col-span-2 mt-12 mb-12">
         <div className="flex flex-col items-start ">
-          <div className="text-[2.35em] text-[#252525] font-[400]">
-            Discover
-          </div>
+          <div className="text-[2.35em] text-[#252525] font-[400]">Staff</div>
           <p className="mt-6 mb-6 text-[1.35em] font-normal text-[#808080] leading-[1.68em] text-start text-justify">
-            Discovery is everything just shy of actual development. It’s the
-            down and dirty stuff like initial scope, ideation, requirements
-            gathering, and consultation. These critical steps act as a blueprint
-            for the rest of your project. After Discovery, we can either hand
-            things off to your development team or assemble one just for you.
+            Think of us as an extension of your current development
+            capabilities. We can supplement your existing team or build one from
+            scratch just for you. We’ll remotely integrate into your
+            organization and scale with you as your needs grow. You don’t even
+            need to invite us to your company party. Although, we probably
+            wouldn’t turn down the offer.
           </p>
           <h4 className="text-[1.35em] font-[500] mb-2">Perfect When:</h4>
           <ul className="ml-10">
@@ -57,4 +58,4 @@ const Discover = () => {
   );
 };
 
-export default Discover;
+export default Staff;

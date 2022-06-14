@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="  grid overflow-hidden grid-cols-4 grid-rows-1 gap-8  bg-[#252525] pt-28  pl-[15em] pr-[15em] pb-6">
+    <div className="  grid overflow-hidden grid-cols-4 grid-rows-1 gap-8 mt-[10em]  bg-[#252525] pt-28  pl-[15em] pr-[15em] pb-6">
       <p className="text-[#ffffff]  text-justify leading-6 ">
         We at Bit Brothers are a small global team of seasoned product managers,
         data scientists, data engineers, developers, and designers, ready to

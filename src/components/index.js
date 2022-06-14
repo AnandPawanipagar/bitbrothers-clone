@@ -22,6 +22,9 @@ import OurApproach from "./Approach/OurApproach";
 import ClientsCarousel from "./HomePage/ClientsCarousel";
 import FeedbackCarousel from "./HomePage/FeedbackCarousel";
 import Discover from "./Approach/Discover";
+import Build from "./Approach/Build";
+import Staff from "./Approach/Staff";
+import Support from "./Approach/Support";
 export {
   Button,
   Loader,
@@ -46,5 +49,8 @@ export {
   OurApproach,
   ClientsCarousel,
   FeedbackCarousel,
-  Discover
+  Discover,
+  Build,
+  Staff,
+  Support
 };
