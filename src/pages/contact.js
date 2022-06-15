@@ -21,6 +21,7 @@ const Contact = () => {
           project or idea.
         </p>
       </div>
+      <div className="mt-[15em]"></div>
       <form
       // onSubmit={handleSubmit(onSubmit)}
       >
@@ -45,7 +46,7 @@ const Contact = () => {
             <label className="font-[400]">About Project:</label>
             <textarea className="border-[##D0D3D4] px-1 py-1 border-2 rounded mt-1 "></textarea>
           </div>
-          <div className="flex col-span-2 items-center ">
+          <div className="flex col-span-2 items-center mt-4">
             <input
               type="checkbox"
               classname=" appearance-none checked:bg-blue-500  border-[#B3B6B7] "
@@ -55,14 +56,13 @@ const Contact = () => {
               our cookie use.
             </p>
           </div>
-          <div className="col-span-2">
-            <button
-              type="button"
-              className=" font-bold text-sm rounded  w-auto flex items-center bg-[#b689f8] text-white px-8 h-[36px] hover:bg-[#BB8FCE] opacity-200 "
-            >
-              GET IN TOUCH
-            </button>
-          </div>
+
+          <button
+            type="button"
+            className=" font-bold text-sm rounded  w-[100%] flex items-center bg-[#b689f8] text-white px-8 h-[36px] hover:bg-[#BB8FCE] opacity-200 justify-center  col-span-2 mt-8"
+          >
+            GET IN TOUCH
+          </button>
         </div>
       </form>
     </div>
