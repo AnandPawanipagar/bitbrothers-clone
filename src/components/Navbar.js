@@ -21,12 +21,14 @@ const Navbar = () => {
         <div className="ml-6 uppercase opacity-50 hover:opacity-[100] font-semibold">
           <Link href="/manifesto">manifesto</Link>
         </div>
-        <button
-          type="button"
-          className=" font-bold text-sm rounded ml-6 w-fit flex items-center bg-[#b689f8] text-white px-8 h-[36px] hover:bg-[#BB8FCE] opacity-200 "
-        >
-          GET IN TOUCH
-        </button>
+        <Link href="/contact">
+          <button
+            type="button"
+            className=" font-bold text-sm rounded ml-6 w-fit flex items-center bg-[#b689f8] text-white px-8 h-[36px] hover:bg-[#BB8FCE] opacity-200 "
+          >
+            GET IN TOUCH
+          </button>
+        </Link>
       </div>
     </div>
   );

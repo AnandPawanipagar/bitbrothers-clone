@@ -78,5 +78,6 @@ export {
   OurManifesto,
   WhatDrivesUs,
   OneAndZeroCards,
-  LookingForTalent
+  LookingForTalent,
+  
 };
