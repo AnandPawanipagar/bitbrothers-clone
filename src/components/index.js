@@ -34,6 +34,10 @@ import ReachUsers from "./Services/ReachUsers";
 import BuildEnhance from "./Services/BuildEnhance";
 import ProtectProductQuality from "./Services/ProtectProductQuality";
 import KeepYourSoftRunning from "./Services/KeepYourSoftRunning";
+import OurManifesto from "./Manifesto/OurManifesto";
+import WhatDrivesUs from "./Manifesto/WhatDrivesUs";
+import OneAndZeroCards from "./Manifesto/OneAndZeroCards";
+import LookingForTalent from "./Manifesto/LookingForTalent";
 export {
   Button,
   Loader,
@@ -70,5 +74,9 @@ export {
   ReachUsers,
   BuildEnhance,
   ProtectProductQuality,
-  KeepYourSoftRunning
+  KeepYourSoftRunning,
+  OurManifesto,
+  WhatDrivesUs,
+  OneAndZeroCards,
+  LookingForTalent
 };

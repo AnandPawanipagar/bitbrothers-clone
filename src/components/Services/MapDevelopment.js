@@ -1,5 +1,6 @@
 import React from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 const MapDevelopment = () => {
   const firstList = [
     "Market Segmentation",
@@ -13,6 +14,7 @@ const MapDevelopment = () => {
       <div className=" col-start-auto col-span-1 bg-[#29dde5]"></div>
       <div className=" col-span-2 mt-12 mb-12">
         <div className="flex flex-col items-start ">
+          <FontAwesomeIcon icon={faCoffee} />
           <div className="text-[2.35em] text-[#252525] font-[400]">
             Map Development to Business Opportunity
           </div>

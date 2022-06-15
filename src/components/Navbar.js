@@ -13,7 +13,7 @@ const Navbar = () => {
       ></Image>
       <div className="flex flex-row items-center">
         <div className="mr-6 uppercase opacity-50 hover:opacity-[100] font-semibold">
-          <Link href="/approch">approch</Link>
+          <Link href="/approch">approach</Link>
         </div>
         <div className="mr-6 ml-6 uppercase opacity-50 hover:opacity-[100] font-semibold">
           <Link href="/services">services</Link>
