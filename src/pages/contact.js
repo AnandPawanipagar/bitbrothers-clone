@@ -16,13 +16,12 @@ const Contact = () => {
       <div className="mt-[15em]"></div>
 
       <Formik
-        initialValues={{ email: "" }}
-        // onSubmit={async (values) => {
-        //   await new Promise((resolve) => setTimeout(resolve, 500));
-        //   alert(JSON.stringify(values, null, 2));
-        // }}
+        initialValues={{ email: "", name: "", company: "", phone: {} }}
         validationSchema={Yup.object().shape({
           email: Yup.string().email().required("Required"),
+          name: Yup.string().required("Required"),
+          company: Yup.string(),
+          phone: Yup.number().positive().integer(),
         })}
       >
         {(props) => {
@@ -30,23 +29,40 @@ const Contact = () => {
             values,
             touched,
             errors,
-            dirty,
-            isSubmitting,
             handleChange,
             handleBlur,
             handleSubmit,
-            handleReset,
           } = props;
           return (
             <form onSubmit={handleSubmit}>
               <div className="grid grid-cols-2 grid-rows-3 gap-x-4 gap-y-4  ml-[10em] mr-[10em] border-[##D0D3D4] px-6 py-10 border-2 rounded">
                 <div className="flex flex-col ">
                   <label className="font-[400]"> Name:</label>
-                  <input className=" border-[##D0D3D4] px-1 py-1 border-2 rounded mt-1" />
+                  <input
+                    onChange={handleChange}
+                   
+                    id="name"
+                    type="text"
+                    value={values.name}
+                    className=" border-[##D0D3D4] px-1 py-1 border-2 rounded mt-1"
+                  />
+                  {errors.name && touched.name && (
+                    <div className="text-[red] mt-0.25em">{errors.name}</div>
+                  )}
                 </div>
                 <div className="flex flex-col">
                   <label className="font-[400]">Company:</label>
-                  <input className="border-[##D0D3D4] px-1 py-1 border-2 rounded mt-1" />
+                  <input
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    id="company"
+                    type="text"
+                    value={values.company}
+                    className="border-[##D0D3D4] px-1 py-1 border-2 rounded mt-1"
+                  />
+                  {errors.company && touched.company && (
+                    <div className="text-[red] mt-0.25em">{errors.company}</div>
+                  )}
                 </div>
                 <div className="flex flex-col">
                   <label className="font-[400]">Email Address:</label>
@@ -54,22 +70,21 @@ const Contact = () => {
                     onChange={handleChange}
                     onBlur={handleBlur}
                     id="email"
-                    placeholder="Enter your email"
                     type="text"
                     value={values.email}
-                    className={`  border-[##D0D3D4] px-1 py-1 border-2 rounded mt-1 ${
-                      errors.email && touched.email
-                        ? "text-input error"
-                        : "text-input"
-                    }`}
+                    className={`  border-[##D0D3D4] px-1 py-1 border-2 rounded mt-1 `}
                   />
                   {errors.email && touched.email && (
-                    <div className="input-feedback">{errors.email}</div>
+                    <div className="text-[red] mt-0.25em">{errors.email}</div>
                   )}
                 </div>
                 <div className="flex flex-col">
                   <label className="font-[400]">Phone:</label>
-                  <input className="border-[##D0D3D4] px-1 py-1 border-2 rounded mt-1" />
+                  <input   onChange={handleChange}
+                    onBlur={handleBlur}
+                    id="phone"
+                    type="number"
+                    value={values.phone} className="border-[##D0D3D4] px-1 py-1 border-2 rounded mt-1" />
                 </div>
                 <div className="flex flex-col col-span-2">
                   <label className="font-[400]">About Project:</label>
@@ -88,7 +103,6 @@ const Contact = () => {
 
                 <button
                   type="submit"
-                  
                   className=" font-bold text-sm rounded  w-[100%] flex items-center bg-[#b689f8] text-white px-8 h-[36px] hover:bg-[#BB8FCE] opacity-200 justify-center  col-span-2 mt-8"
                 >
                   GET IN TOUCH
