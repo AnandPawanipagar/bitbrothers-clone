@@ -1,6 +1,16 @@
 import React from "react";
-
+import { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { incrementNum } from "../../redux/actions";
 const HappyClientsToProjDepCards = () => {
+  const myState = useSelector((state) => state.increment);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    setTimeout(() => {
+      dispatch(incrementNum());
+    }, 1000);
+  }, []);
+
   let cards = [
     {
       img: "icon-Heart text-5xl text-[#b689f8] ",
@@ -40,6 +50,7 @@ const HappyClientsToProjDepCards = () => {
                 {card.valTitle}
               </div>
             </div>
+            <div> {myState}</div>
           </div>
         );
       })}

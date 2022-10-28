@@ -22,7 +22,7 @@
     "react-google-recaptcha-v3": "^1.9.7",
     "react-redux": "^7.2.8",
     "react-responsive-carousel": "^3.2.23",
-    "redux": "^4.1.2",
+    "redux": "^4.2.0",
     "redux-thunk": "^2.4.1",
     "yup": "^0.32.11"
   },
